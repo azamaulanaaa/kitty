@@ -243,9 +243,9 @@ enum SubmissionStage {
 struct SubmissionStatusResponse {
     status_id: u64,
     testcase_index: u64,
-    testdata_groups_html: String,
-    feedback_html: String,
-    judge_feedback_html: String,
+    // testdata_groups_html: String,
+    // feedback_html: String,
+    // judge_feedback_html: String,
     row_html: String,
 }
 
